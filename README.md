@@ -6,5 +6,9 @@ A set of functions to optimize machine learning models. The purpose here is to h
 - XGBoost
 - Adaboost
 
+### The techniques that will be used are :
+- Grid Search
+- Random Grid Search
+- Bayesian optimization
 
-I will try to add more models and pre-defined parameters in the future.
+I will try to add more models and optimization functions in the future.
