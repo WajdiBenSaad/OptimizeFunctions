@@ -1,4 +1,10 @@
 import lightgbm as lgb
+## Data :
+y_train  
+y_test  
+X_train  
+X_test
+
 
 ### initial parameter list for a classification problem:
 
@@ -18,3 +24,7 @@ import lightgbm as lgb
     'tree_learner': 'serial',
     'objective': 'binary',
             }
+
+## Model Definition:
+
+ lgb_model = lgb.train(param,lgb_train,num_boost_round=20,valid_sets=lgb_eval,early_stopping_rounds=5)
