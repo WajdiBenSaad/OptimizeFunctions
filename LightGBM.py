@@ -1,6 +1,7 @@
 import lightgbm as lgb
 
-### initial parameter list :
+### initial parameter list for a classification problem:
+
   param = {
     'bagging_freq': 4,
     'bagging_fraction': 0.4,
@@ -16,6 +17,4 @@ import lightgbm as lgb
     'num_threads': 8,
     'tree_learner': 'serial',
     'objective': 'binary',
-    'verbosity': 1
-        
-    }
+            }
