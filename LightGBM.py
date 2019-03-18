@@ -27,11 +27,12 @@ lgb_eval = lgb.Dataset(X_test, y_test, reference=lgb_train)
     'num_threads': 8,
     'tree_learner': 'serial',
     'objective': 'binary',
+    'num_boost_round':20
             }
 
 ## Model Definition:
 
- lgb_model = lgb.train(param,lgb_train,num_boost_round=20,valid_sets=lgb_eval,early_stopping_rounds=5)
+ lgb_model = lgb.train(param,lgb_train,valid_sets=lgb_eval,early_stopping_rounds=5)
 
   
 ## Model predictions
