@@ -32,11 +32,12 @@ Algos = [
 #SVM
     svm.SVC(probability=True),
     svm.NuSVC(probability=True),
-    svm.LinearSVC()
-    
+    svm.LinearSVC(),
+  #Trees    
+    tree.DecisionTreeClassifier(),
+    tree.ExtraTreeClassifier()
 
-  
- 
+
     
       
     ]
