@@ -35,7 +35,12 @@ Algos = [
     svm.LinearSVC(),
   #Trees    
     tree.DecisionTreeClassifier(),
-    tree.ExtraTreeClassifier()
+    tree.ExtraTreeClassifier(),
+  
+  #Discriminant Analysis
+    discriminant_analysis.LinearDiscriminantAnalysis(),
+    discriminant_analysis.QuadraticDiscriminantAnalysis()
+    
 
 
     
