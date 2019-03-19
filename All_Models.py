@@ -26,6 +26,14 @@ Algos = [
     naive_bayes.BernoulliNB(),
     naive_bayes.GaussianNB(),
     
+#Nearest Neighbor
+    neighbors.KNeighborsClassifier(),
+    
+#SVM
+    svm.SVC(probability=True),
+    svm.NuSVC(probability=True),
+    svm.LinearSVC()
+    
 
   
  
