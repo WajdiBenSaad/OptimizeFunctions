@@ -29,8 +29,8 @@ import lightgbm as lgm
 
   gridParams = {
     'learning_rate': [0.005],
-    'n_estimators': [2000],
-    'num_leaves': [4,2],
+    'n_estimators': [500,800,1200],
+    'num_leaves': [8,4,2],
     'colsample_bytree' : [0.7,0.07],
     'reg_alpha' : [1,1.2,7],
     'reg_lambda' : [5,5.5,0.6],
