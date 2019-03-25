@@ -1,10 +1,8 @@
-
 ############################
 ## ALL MODELS
 ############################
 Algos = [
-  
-   #Xgboost
+    #Xgboost
     XGBClassifier() ,
   
    #Ensemble Methods
