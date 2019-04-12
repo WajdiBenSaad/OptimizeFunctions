@@ -1,9 +1,9 @@
 import lightgbm as lgb
 ## Data :
-y_train  
-y_test  
-X_train  
-X_test
+y_train  ##
+y_test   ##
+X_train  ##
+X_test   ##
 
 # Dataset for lightgbm 
 lgb_train = lgb.Dataset(X_train, y_train)
