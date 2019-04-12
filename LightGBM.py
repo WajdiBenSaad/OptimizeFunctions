@@ -39,5 +39,5 @@ lgb_eval = lgb.Dataset(X_test, y_test, reference=lgb_train)
 
 y_pred = gbm.predict(X_test, num_iteration=gbm.best_iteration)
 
-## Model evalution
+## Model evalution##
 print('The rmse of prediction is:', mean_squared_error(y_test, y_pred) ** 0.5)
